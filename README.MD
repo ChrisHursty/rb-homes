@@ -88,5 +88,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Fonts
 
-- <a href="https://fonts.google.com/specimen/Oswald" target="_blank" rel="nofollow">Oswald</a>
 - <a href="https://fonts.google.com/specimen/Montserrat" target="_blank" rel="nofollow">Montserrat</a>

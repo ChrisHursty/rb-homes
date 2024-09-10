@@ -22,6 +22,6 @@
                 <?php endwhile; ?>
             <?php endif; ?>
         </div>
-        <a class="rbh-btn align-center" href="/services"><span>View All Of Our Services</span></a>
+        <a class="rbh-btn align-center" href="tel:+4478266103914"><span>Call Us Now</span></a>
     </div>
 </section>

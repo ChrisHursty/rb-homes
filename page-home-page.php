@@ -50,12 +50,7 @@ get_header();
     </div>
 </section>
 <!-- About -->
-<section class="container-fw home-about dark-bg">
-    <div class="container">
-        <div class="align-center">
-            <h2>About</h2>
-        </div>
-    </div>
+<section id="about" class="container-fw home-about dark-bg">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-10 align-center">
@@ -70,17 +65,10 @@ get_header();
     </div>
 </section>
 <!-- Services -->
-<section class="cta">
+<section id="services" class="services">
     <?php get_template_part('template-parts/services'); ?>
 </section>
-<!-- Testimonial Slider -->
-<section class="testimonials">
-    <?php get_template_part('template-parts/testimonial-slider'); ?>
-</section>
 
-<section class="cta">
-    <?php get_template_part('template-parts/call-to-action'); ?>
-</section>
 <section class="container-fw gallery-bg">
     <?php while (have_posts()) : the_post();
         $images = get_field('hp_gallery');
@@ -94,6 +82,16 @@ get_header();
             </div>
     <?php endif;
     endwhile; ?>
+</section>
+<section id="cta" class="contaner-fw cta map">
+    <div class="container-fw">
+        <?php get_template_part('template-parts/call-to-action'); ?>
+    </div>
+    <div class="container-fw">
+        <h2 class="align-center text-center">Serivce Area</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d336024.22959043615!2d1.2686312347254036!3d52.58673247255744!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1725996292900!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
 </section>
 <?php
 get_footer();

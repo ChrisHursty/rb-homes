@@ -1,11 +1,11 @@
 // Import fonts
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
 
 // Variables
-$black: #212121;
+$black: #010101;
 $white: #ffffff;
-$primary: #ecd8bd; // Light Beige
-$secondary: #735731; // Dark Beige
+$primary: #8f1180; // Purple
+$secondary: #db4aca; // Light Purple
 $dark-gray: #363636;
 $light-gray: #f4f4f4;
 $dark-red: #6f0003;
@@ -14,8 +14,7 @@ $footer-top-color: $black;
 $footer-bottom-color: $black;
 
 // Fonts
-$heading: 'Playfair Display', sans-serif,
-serif;
+$heading: 'Rubik Mono One', sans-serif;
 $sub-heading: 'Montserrat', sans-serif;
 $body: 'Montserrat', sans-serif;
 

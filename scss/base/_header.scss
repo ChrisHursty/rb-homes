@@ -8,7 +8,7 @@
 }
 
 .header-spacer {
-    margin-top: 110px;
+    margin-top: 106px;
 
     @media (min-width: 1024px) and (max-width: 1180px) {
         margin-top: 9vw;
@@ -52,7 +52,7 @@
 
     .site-branding {
         padding: 5px 0;
-        width: 25%;
+        width: 15%;
         
         a {
             display: block;
@@ -72,11 +72,11 @@
         }
 
         @media (max-width: 600px) {
-            width: 55%;
+            width: 34%;
         }
 
         @media (max-width: 480px) {
-            width: 52%;
+            width: 40%;
         }
     }
 
@@ -106,8 +106,6 @@
         }
     }
 
-    
-
     .main-navigation {
         display: flex;
         align-items: center;
@@ -126,9 +124,9 @@
         }
 
         //Button
-        .hire-btn {
+        .contact-btn {
             border: 4px solid $white;
-            border-radius: 8px;
+            border-radius: 50px;
             padding: 5px 15px;
             transition: background-color 0.5s ease;
 
@@ -229,14 +227,11 @@
             @media (max-width: 768px) {
                 display: block; // Show only in mobile view
             }
-    
-            // More styles as needed...
         }
     
         &.toggled {
-            // Styles when menu is toggled
             .menu-close {
-                display: block; // Ensure it's visible when menu is open
+                display: block; 
             }
         }
 
@@ -285,4 +280,8 @@
             display: none;
         }
     }
+}
+
+.menu-toggle[aria-expanded="true"] .hamburger {
+    display: block !important; 
 }
